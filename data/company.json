@@ -1,0 +1,16 @@
+
+[
+
+    {
+        "name": "Angels D3vil",
+        "description": "Meet Angel, an extraordinary self-taught tattoo artist who hails from France, carrying with them the rich artistic heritage of a family deeply rooted in the world of art. Armed with a multilingual flair, Angel effortlessly converses in Spanish, French, and English, forging connections that span borders. With a heart ablaze for the art of ink, Angel's creativity knows no bounds. Each stroke of the needle paints a masterpiece, reflecting their unparalleled passion for body art. Their journey as a tattoo virtuoso has been marked by fearless determination and an unwavering desire to become a worldwide tattoo sensation. From intricate designs to soul-stirring symbols, Angel's work encapsulates a fusion of cultures and experiences, leaving an indelible mark on the human canvas. They embrace the duality of their craft, transforming skin into a canvas that evokes both heavenly artistry and the thrill of a little devilish pain. Join Angel on an extraordinary voyage where art and soul merge, creating a timeless legacy etched into the fabric of existence. With Angel as your guide, you'll discover the beauty of self-expression and the unifying power of body art.",
+        "image_source": "../static/img/angel-image.jpg",
+        "url": "angel"
+    },
+    {
+        "name": "Angels D3vil",
+        "description": "Meet Angel, an extraordinary self-taught tattoo artist who hails from France, carrying with them the rich artistic heritage of a family deeply rooted in the world of art. Armed with a multilingual flair, Angel effortlessly converses in Spanish, French, and English, forging connections that span borders. With a heart ablaze for the art of ink, Angel's creativity knows no bounds. Each stroke of the needle paints a masterpiece, reflecting their unparalleled passion for body art. Their journey as a tattoo virtuoso has been marked by fearless determination and an unwavering desire to become a worldwide tattoo sensation. From intricate designs to soul-stirring symbols, Angel's work encapsulates a fusion of cultures and experiences, leaving an indelible mark on the human canvas. They embrace the duality of their craft, transforming skin into a canvas that evokes both heavenly artistry and the thrill of a little devilish pain. Join Angel on an extraordinary voyage where art and soul merge, creating a timeless legacy etched into the fabric of existence. With Angel as your guide, you'll discover the beauty of self-expression and the unifying power of body art.",
+        "image_source": "../static/img/angel-image2.jpg",
+        "url": "d3vil"
+    }
+]

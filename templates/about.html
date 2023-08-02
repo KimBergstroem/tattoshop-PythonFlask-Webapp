@@ -1,4 +1,61 @@
 {% extends "base.html" %}
 {% block content %}
-    <h1>About Page</h1>
+
+<h2>{{ page_title }}</h2>
+
+<p> Welcome to "Angels D3vil," the realm of tattoo artistry where pain becomes passion and the extraordinary comes to
+    life. Founded by Angel, a trailblazing self-taught tattoo artist, the name encapsulates the essence of their
+    craft—unifying the heavenly and the devilish to create art that transcends boundaries.
+    <br><br>
+
+    At "Angels D3vil," we celebrate the beauty of body art, recognizing that each design tells a unique story. Angel's
+    artistic lineage enriches every stroke, infusing each tattoo with a fusion of cultural influences and experiences.
+    Our mission is to break barriers and embrace the universal language of ink, uniting people from all corners of the
+    globe.
+    <br><br>
+
+    We believe in empowering our clients through art, unlocking the potential of self-expression, and celebrating the
+    artistry of the human canvas. With a portfolio spanning continents, "Angels D3vil" invites you to embark on an
+    unforgettable journey, where ink ignites the spirit and pain transforms into art.
+    <br><br>
+
+    Discover the extraordinary with "Angels D3vil"—where art and passion converge, creating masterpieces that resonate
+    with the heart and soul. Join us, as we dare to be inkspired and etch our mark on the world, one tattoo at a time.
+</p>
+
+{% for member in company %}
+
+    <div class="row featurette">
+
+        {% if loop.index % 2 != 0 %}
+
+            <div class="col-md-7">
+                <h3><a href="/about/{{ member.url }}">{{ member.name }}</a></h3>
+                <p>{{ member.description }}</p>
+            </div>
+            <div class="col-md-5">
+                <img src="{{ member.image_source }}" alt="Profile" class="featurette-image image-responsive">
+            </div>
+
+        {% else %}
+
+        <div class="col-md-5">
+            <img src="{{ member.image_source }}" alt="Profile" class="featurette-image image-responsive">
+        </div>
+        <div class="col-md-7">
+            <h3><a href="/about/{{ member.url }}">{{ member.name }}</a></h3>
+            <p>{{ member.description }}</p>
+        </div>
+
+        {% endif %}
+
+    </div>
+    {% if loop.index != 2 %}
+
+    <hr class="featurette-divider">
+
+    {% endif %}
+
+{% endfor %}
+
 {% endblock %}
