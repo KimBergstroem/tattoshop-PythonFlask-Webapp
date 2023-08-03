@@ -34,7 +34,11 @@ def about_member(member_name):
 
 @app.route("/careers")
 def careers():
-    return render_template("careers.html", page_title="My Portfolio")
+    images = []
+    with open("data/portfolio.json", "r") as json_data:
+        images = json.load(json_data)
+    return render_template(
+        "careers.html", page_title="My Portfolio", portfolio=images)
 
 
 @app.route("/contact", methods=["GET", "POST"])

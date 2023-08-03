@@ -3,4 +3,16 @@
 
     <h2>{{ page_title }}</h2>
 
+        <div class="row shadow p-3 mb-5 bg-white rounded">
+
+            {% for image in portfolio[0].images %}
+
+                <div class="col-6 col-md-4 p-2">
+                    <img src="{{ image }}" alt="Profile">
+                </div>
+
+            {% endfor %}    
+
+        </div>
+
 {% endblock %}
