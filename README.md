@@ -15,6 +15,7 @@ Tattoshop Website is a small project built with Flask, aimed at gaining experien
 
 - Flask
 - Python
+- Javascript
 - HTML5
 - CSS3
 
